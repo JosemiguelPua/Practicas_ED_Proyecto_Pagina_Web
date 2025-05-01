@@ -17,5 +17,9 @@ body {
     background: radial-gradient(circle, #e1dcdc, #ffffff);
 }
 
+p {
+    font-size: 22px;
+}
+
 
 
