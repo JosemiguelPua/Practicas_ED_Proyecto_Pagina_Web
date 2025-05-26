@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;  /* Centra horizontalmente, en este caso deja espacio entre los objetos */
+    align-items: center; /* Centra verticalmente */
+    background: linear-gradient( rgb(255, 255, 255), rgb(0, 0, 0));
+    width: 100%;
+}
+
+.fotos_banner {
+    max-width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    background: radial-gradient(circle, #726c6c, #151414); /* Parámetro del background para aplicar un color gradiante */
+    padding: 1%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    border-radius: 1px;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none; /* Le quita los puntos de la lista */
+    display: flex;
+    padding: 0;
+    
+}
+
+nav .menu {
+    padding: 40px; 
+    font-size: 16px;
+    text-decoration: none; /* Le quita la decoracion del enlace, el subrayado azul */
+    color: white;
+    
+    
+}
+
+nav .menu:hover{
+    color: rgb(243, 255, 10);
+    cursor: pointer;
+}
+
+body {
+    background: radial-gradient(circle, #d8caca, #0f0f0f);
+    color: white;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    font-size: 36px;
+    
+}
+
+form {
+    border: white 10px groove;
+    padding: 50px;
+}
